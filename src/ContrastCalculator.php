@@ -44,9 +44,9 @@ class ContrastCalculator
   }
 
   /**
-   * @return int
+   * @return float
    */
-  public function getLuminosityContrast() : int
+  public function getLuminosityContrast() : float
   {
     $firstColorLuminosity = $this->firstColor->getLuminosity();
     $secondColorLuminosity = $this->secondColor->getLuminosity();
