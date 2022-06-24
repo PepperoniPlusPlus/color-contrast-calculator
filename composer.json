@@ -1,0 +1,17 @@
+{
+    "name": "pepperoniplusplus/color-contrast-calculator",
+    "description": "A package to calculate contrast given two colors. Provides functions to calculate color difference, brightness difference and luminosity contrast.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "PepperoniPlusPlus",
+            "email": "ibrahimkfawaz@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"pepperoniplusplus\\ColorContrastCalculator\\": "src/"}
+    },
+    "require": {}
+}
