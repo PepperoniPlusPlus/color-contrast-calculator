@@ -53,7 +53,7 @@ class ContrastCalculator
 
     return
       $firstColorLuminosity > $secondColorLuminosity
-      ? ($firstColorLuminosity + 0.05) / ($secondColorLuminosity / 0.05)
-      : ($secondColorLuminosity + 0.05) / ($firstColorLuminosity / 0.05);
+      ? ($firstColorLuminosity + 0.05) / ($secondColorLuminosity + 0.05)
+      : ($secondColorLuminosity + 0.05) / ($firstColorLuminosity + 0.05);
   }
 }
